@@ -10,28 +10,49 @@
 	</head>
 	<body>
 		<div class="container container_chat" >
-			<div class="col-md-offset-2 col-md-4 ">
+			<div class=" col-md-4 pull-left">
 				<img src="img/nkar.jpg" class="img-responsive img_chat">
 				<div>
 					<p class="user_info">User Info</p>
-					<input type="text" name="" placeholder="name">
-					<input type="text" name="" placeholder="nickname">
-					<input type="number" name="" min="1" placeholder="ago">
+					<div>
+						<label for="user_name">
+							Name: 
+						</label>
+						<span id="user_name">
+							.....
+						</span>
+					</div>
+					<div>
+						<label for="user_nikname">
+							Nikname: 
+						</label>
+						<span id="user_nikname">
+							.....
+						</span>
+					</div>
+					<div>
+						<label for="user_age">
+							Age: 
+						</label>
+						<span id="user_age">
+							.....
+						</span>
+					</div>	
 				</div>
 			</div>
-			<div class="col-md-4 chat ">
-				<h2>Chat</h3>
+			<div class="col-md-8 chat pull-right">
+				<h3>Chat</h3>
 				<div class="chat_area" id="area">
 					
 				</div>
-				<div>
-					<input type="text" name="" id="messige">
-					<button onclick="myFunction()">send</button>
+				<div id="send_section">
+					<input type="text" name="" id="messige" class="form-control">
+					<button class="btn" onclick="myFunction()">Send</button>
 				</div>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-	    <script src="script.js"></script>
+	    <script src="js/script.js"></script>
 	</body>
 </html>
