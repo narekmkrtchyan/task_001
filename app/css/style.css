@@ -1,0 +1,33 @@
+.container_chat{
+	border:1px solid black;
+
+}
+.chat{
+	border:1px solid black;
+	margin-top:7px;
+	margin-bottom: 7px;
+	}
+h2{
+	text-align: center;
+}
+.img_chat{
+	
+	width: 175px;
+    margin-top: 7px;
+}
+.chat_area{
+	border:1px solid black;
+	height:202px;
+	margin-bottom: 6px;
+}
+#messige{
+	    margin-bottom: 6px;
+}
+.user_info{
+	margin-top: 11px;
+}
+
+#sign_in_form input {
+	margin-bottom: 15px;
+
+}
